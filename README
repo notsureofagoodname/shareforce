@@ -1,0 +1,9 @@
+I knocked up two quick tools for a Sharepoint audit.
+
+shareurls.py is intended for a low privilege user to try and access a large number of administrative urls. It takes a screenshot of each page in Chrome so you can quickly scan the directory and find issues.
+
+shareforce.py uses the darkc0de.lst password file (you need to download this) to brute force the Sharepoint login form.
+
+Note: I used the Chrome Driver but you could easily swap this out for Firefox or Internet Explorer. I may add these in the future.
+
+- Enjoy!
